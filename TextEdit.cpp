@@ -1,13 +1,10 @@
-// TextDocument.cpp
-// TextDocument 클래스의 멤버 함수 정의
-// - 화면 입출력(cin, cout)은 main.cpp에 두고, 여기서는 문서 데이터와 파일 입출력만 다룬다.
+// 문서 데이터와 파일 입출력
 
 #include "TextEdit.h"
-#include <fstream>   // ifstream, ofstream
+#include <fstream>
 
 using namespace std;
 
-// 처음에는 비어 있는 새 문서로 시작한다. (lines와 fileName은 자동으로 비어 있다.)
 //TextEdit::TextEdit() : modified(false) {
 //}
 
